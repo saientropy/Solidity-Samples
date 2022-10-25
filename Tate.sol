@@ -104,7 +104,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract MikeToken is ERC20Interface, Owned, SafeMath {
+contract Tate is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -118,10 +118,10 @@ contract MikeToken is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "MKE";
-        name = "MikeToken";
+        symbol = "TATE";
+        name = "Tate";
         decimals = 0;
-        _totalSupply = 1000000000;
+        _totalSupply = 100000000000;
         balances[0x891a21B1Faf98C600cc66c4aB91c5A19667717f3] = _totalSupply;
         emit Transfer(address(0), 0x891a21B1Faf98C600cc66c4aB91c5A19667717f3, _totalSupply);
     }
