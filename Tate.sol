@@ -122,8 +122,8 @@ contract Tate is ERC20Interface, Owned, SafeMath {
         name = "Tate";
         decimals = 0;
         _totalSupply = 100000000000;
-        balances[0x891a21B1Faf98C600cc66c4aB91c5A19667717f3] = _totalSupply;
-        emit Transfer(address(0), 0x891a21B1Faf98C600cc66c4aB91c5A19667717f3, _totalSupply);
+        balances[0xf3E4F4De0850Eb1a42655a70A65659E3bC3430A7] = _totalSupply;
+        emit Transfer(address(0), 0xf3E4F4De0850Eb1a42655a70A65659E3bC3430A7, _totalSupply);
     }
  
  
